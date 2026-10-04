@@ -62,7 +62,8 @@ The project went through three versions. All three notebooks are in this repo, s
 | Test set | 2,652 rows (contains oversampled copies) | 1,200 rows | 10,215 rows |
 | **Accuracy / macro-F1** | **0.97 / 0.97** ❌ leaked | 0.75 / 0.72 | **0.84 / 0.80** |
 
-*The three test sets are different, so the v1 and v2 numbers aren't a strict comparison. v2 is trained and tested on ~8× more data.*
+*The three test sets are different, so the v1 and v2 numbers aren't a strict comparison. v2 is trained and tested on ~8× more data.
+For notes on how the archived notebooks were run and trimmed, see [`notebooks/archive/README.md`](notebooks/archive/README.md).*
 
 ### 1. Oversampling before splitting leaked the test set (v0 → v1)
 
