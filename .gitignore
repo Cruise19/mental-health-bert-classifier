@@ -1,0 +1,13 @@
+# Data and model weights are not stored in the repo
+*.csv
+!results/*.csv
+saved_mental_status_bert/
+results/checkpoint-*/
+*.safetensors
+*.bin
+*.pkl
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
